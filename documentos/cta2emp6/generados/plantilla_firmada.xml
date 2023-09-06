@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<factura id='comprobante' version='1.0.0'>
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial></razonSocial>
+        <nombreComercial></nombreComercial>
+        <ruc></ruc>
+        <claveAcceso>1008201801179125123700120010640190570801905708017</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000001</secuencial>
+        <dirMatriz>PORTOVIEJO</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>01/09/2018</fechaEmision>
+        <dirEstablecimiento>PORTOVIEJO</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>PRUEBA SERVICIO DE RENTAS INTERNAS</razonSocialComprador>
+        <identificacionComprador>1310562325</identificacionComprador>
+        <direccionComprador>PORTOVIEJO</direccionComprador>
+        <totalSinImpuestos>223.95</totalSinImpuestos>
+        <totalDescuento>3.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>223.95</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>26.87</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>250.82</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>250.82</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>0001</codigoPrincipal>
+            <codigoAuxiliar>0001</codigoAuxiliar>
+            <descripcion>TONER HP 78A</descripcion>
+            <cantidad>3</cantidad>
+            <precioUnitario>75.65</precioUnitario>
+            <descuento>3</descuento>
+            <precioTotalSinImpuesto>223.95</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>223.95</baseImponible>
+                    <valor>26.87</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre='Dirección'>PORTOVIEJO</campoAdicional>
+        <campoAdicional nombre='Teléfono'>0993895976</campoAdicional>
+        <campoAdicional nombre='Email'>gma_daniela200@gmail.com</campoAdicional>
+    </infoAdicional>
+</factura>

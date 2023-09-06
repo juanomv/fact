@@ -1,0 +1,21 @@
+{
+    "name": "root/factmovil",
+    "description": "Sistema de facturacion electronica",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Root\\Factmovil\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hernan Veliz"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "mpdf/mpdf": "^8.1",
+        "google/recaptcha": "^1.2",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
